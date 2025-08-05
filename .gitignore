@@ -1,2 +1,24 @@
+# Direnv environment file
+.envrc
 .env
 .direnv/
+
+# OpenStack configuration files
+uoa-drai-sandbox-openrc.sh
+clouds.yaml
+
+# SSH key
+ndj_ai_key
+
+# Terraform state files and temporary files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Python virtual environment
+.venv/
+
+# Crash log files
+crash.log'
